@@ -14,7 +14,7 @@ public class WelcomeRestController {
 	@ApiOperation(value = "Get Welcome Message For The Given Name ", response = String.class, tags = "getWelcomeNote")
 	@GetMapping("/welcome/{name}")
 	public String welcome(@PathVariable("name") String name) {
-		return name+", Continuous Integration,Configuration management,Continuous delivery & devops..!!";
+		return name+", JENKINS AND DOCKER AND NAGIOS ..!!";
 	}
 
 }
